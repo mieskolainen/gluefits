@@ -245,7 +245,7 @@ if (mode == 1)
     axis([0.6 1.8 0.04 0.22]);
 end
 if (mode == 2)
-    axis([1.5 1.85 0.02 0.3]);    
+    axis([1.5 1.85 0.0 0.3]);
 end
 
 filename = sprintf('../figs/%s_PDG.pdf', particlemode);
